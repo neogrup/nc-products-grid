@@ -1,0 +1,51 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="../nc-items-grid/nc-items-grid.html">
+
+<dom-module id="nc-products-grid">
+  <template>
+    <style>
+    </style>
+
+
+    <nc-items-grid
+                data="{{itemsGridData}}"
+                language="{{language}}"
+                is-paginated
+                breadcrumb={{breadcrumb}}
+                auto-flow
+                dimension="70"
+                on-item-selected="_productSelected">
+    </nc-items-grid>
+
+
+  </template>
+
+  <script>
+    class NcProductsGrid extends Polymer.Element {
+      static get is() { return 'nc-products-grid'; }
+      static get properties() {
+        return {
+          itemsGridData: {
+            type: Object,
+            value: {}
+          },
+          language: String,
+          breadcrumb: {
+            type: Boolean,
+            value: false
+          }
+        };
+      }
+
+      connectedCallback() {
+        super.connectedCallback();
+      }
+
+      _productSelected(item){
+        this.dispatchEvent(new CustomEvent('product-selected', {detail: item.detail, bubbles: true, composed: true }));
+      }
+    }
+
+    window.customElements.define(NcProductsGrid.is, NcProductsGrid);
+  </script>
+</dom-module>
