@@ -8,14 +8,14 @@
 
 
     <nc-items-grid
-                data="{{itemsGridData}}"
-                loading="{{itemsGridLoading}}"
-                language="{{language}}"
-                is-paginated
-                breadcrumb={{breadcrumb}}
-                auto-flow
-                dimension="70"
-                on-item-selected="_productSelected">
+        items-grid-data="{{productsGridData}}"
+        loading="{{itemsGridLoading}}"
+        language="{{language}}"
+        is-paginated
+        breadcrumb={{breadcrumb}}
+        auto-flow
+        dimension="70"
+        on-item-selected="_productSelected">
     </nc-items-grid>
 
 
@@ -26,9 +26,9 @@
       static get is() { return 'nc-products-grid'; }
       static get properties() {
         return {
-          itemsGridData: {
-            type: Object,
-            value: {}
+          productsGridData: {
+            type: Array,
+            value: []
           },
           language: String,
           breadcrumb: {
