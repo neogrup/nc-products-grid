@@ -14,7 +14,7 @@
         is-paginated
         breadcrumb={{breadcrumb}}
         auto-flow
-        dimension="70"
+        dimension="{{dimensionProductsButtons}}"
         on-item-selected="_productSelected">
     </nc-items-grid>
 
@@ -34,7 +34,15 @@
           breadcrumb: {
             type: Boolean,
             value: false
-          }
+          },
+          itemsGridLoading: {
+            type: Boolean,
+            value: false
+          },
+          dimensionProductsButtons: {
+            type: Number,
+            reflectToAttribute: true
+          },
         };
       }
 
