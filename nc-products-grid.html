@@ -12,9 +12,12 @@
         loading="{{itemsGridLoading}}"
         language="{{language}}"
         is-paginated
-        breadcrumb={{breadcrumb}}
+        breadcrumb="[[breadcrumb]]"
         auto-flow
-        dimension="{{dimensionProductsButtons}}"
+        item-height="[[heightProductsGridItems]]"
+        item-width="[[widthProductsGridItems]]"
+        item-margin="[[marginProductsGridItems]]"
+        item-view-mode="[[viewModeProductsGridItems]]"
         on-item-selected="_productSelected">
     </nc-items-grid>
 
@@ -39,10 +42,22 @@
             type: Boolean,
             value: false
           },
-          dimensionProductsButtons: {
+          heightProductsGridItems: {
             type: Number,
             reflectToAttribute: true
           },
+          widthProductsGridItems: {
+            type: Number,
+            reflectToAttribute: true
+          },
+          marginProductsGridItems: {
+            type: Number,
+            reflectToAttribute: true
+          },
+          viewModeProductsGridItems: {
+            type: String,
+            reflectToAttribute: true
+          }
         };
       }
 
