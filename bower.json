@@ -1,6 +1,6 @@
 {
   "name": "nc-products-grid",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Polymer component to display products grid",
   "authors": [
     "edgar.piera@neogrup.com"
