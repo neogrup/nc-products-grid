@@ -8,6 +8,7 @@
 
 
     <nc-items-grid
+        id="itemsGrid"
         items-grid-data="{{productsGridData}}"
         loading="{{itemsGridLoading}}"
         language="{{language}}"
@@ -63,6 +64,10 @@
 
       connectedCallback() {
         super.connectedCallback();
+      }
+
+      selectTopFolder(){
+        this.$.itemsGrid.selectTopFolder();
       }
 
       _productSelected(item){
