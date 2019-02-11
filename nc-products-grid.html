@@ -4,6 +4,15 @@
 <dom-module id="nc-products-grid">
   <template>
     <style>
+      :host {
+        --products-grid-item-content-border-radius: 5px;
+        --products-grid-item-content-box-shadow: none;
+      }
+
+      nc-items-grid{
+        --items-grid-item-content-border-radius: var(--products-grid-item-content-border-radius);
+        --items-grid-item-content-box-shadow: var(--products-grid-item-content-box-shadow);
+      }
     </style>
 
 
