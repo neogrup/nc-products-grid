@@ -1,6 +1,6 @@
 {
   "apiVersion": "1",
-  "systemTime": "2019-02-28T11:58:45.9392343+01:00",
+  "systemTime": "2019-02-28T12:13:05.9492806+01:00",
   "data": {
     "code": "NGRPV001R001",
     "data": [
@@ -8,18 +8,18 @@
         "code": "",
         "content": [
           {
+            "code": "R00056",
+            "name": "Café con leche",
+            "price": 2.5,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/cafeLeche02.png"
+          },
+          {
             "backgroundColor": "#FFFF00",
             "code": "R00055",
             "kitchenNoteGroup": "0000000009",
             "name": "Café solo-",
             "price": 0.95,
             "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/solo01.png"
-          },
-          {
-            "code": "R00056",
-            "name": "Café con leche",
-            "price": 2.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/cafeLeche02.png"
           },
           {
             "code": "R00057",
@@ -32,19 +32,6 @@
             "name": "Café cappuccino",
             "price": 1.62,
             "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/cappuccino.png"
-          },
-          {
-            "code": "R00208",
-            "kind": "pack",
-            "name": "Trifásico",
-            "price": 1.6
-          },
-          {
-            "code": "R00207",
-            "kind": "pack",
-            "name": "Carajillo",
-            "price": 1.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/carajillo.png"
           },
           {
             "code": "R00171",
@@ -71,37 +58,10 @@
             "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/te03.png"
           },
           {
-            "code": "R00173",
-            "kitchenNoteGroup": "0000000002",
-            "name": "Infusión Rooibos",
-            "price": 0.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/Grifel.jpg"
-          },
-          {
             "code": "R00327",
             "name": "Leche vaso",
             "price": 0.5,
             "urlImage": "images/R002/CAJA01/restauración/bebidas/vasoLeche.png"
-          },
-          {
-            "code": "R0907",
-            "kind": "pack",
-            "name": "Carajillo 2",
-            "price": 1.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/carajillo.png"
-          },
-          {
-            "code": "R00173b",
-            "kitchenNoteGroup": "0000000002",
-            "name": "-- con azúcar",
-            "price": 0.5
-          },
-          {
-            "code": "R00998",
-            "kind": "pack",
-            "name": "Pack vacío 2",
-            "price": 1.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/carajillo.png"
           }
         ],
         "name": "Cafés y tés",
@@ -111,13 +71,6 @@
       {
         "code": "",
         "content": [
-          {
-            "code": "R00205",
-            "kind": "pack",
-            "name": "Menú tapeo",
-            "price": 13,
-            "urlImage": "images/R002/CAJA01/restauración/menu_tapeo.png"
-          },
           {
             "code": "R00093",
             "name": "Aceitunas tapa",
@@ -149,20 +102,10 @@
             "urlImage": "images/R002/CAJA01/restauración/tapas%20y%20frutos%20secos/gambitasSaladas.png"
           },
           {
-            "code": "R00284",
-            "name": "Calamares a la romana tapa",
-            "price": 2.4
-          },
-          {
             "code": "R00098",
             "name": "Mejillones al vapor tapa",
             "price": 2.5,
             "urlImage": "images/R002/CAJA01/restauración/tapas%20y%20frutos%20secos/mejillones.png"
-          },
-          {
-            "code": "R00110",
-            "name": "Pan con tomate y jamón",
-            "price": 2
           },
           {
             "code": "R00094",
@@ -574,13 +517,6 @@
         "code": "",
         "content": [
           {
-            "backgroundColor": "#FFFF00",
-            "code": "R00128",
-            "name": "Berlina",
-            "price": 0.95,
-            "urlImage": "images/R002/CAJA01/restauración/panadería/_berlina02.png"
-          },
-          {
             "code": "R00129",
             "name": "Bollo",
             "price": 0.95,
@@ -695,13 +631,6 @@
             "name": "Bocata tortilla patatas",
             "price": 3.95,
             "urlImage": "images/R002/CAJA01/restauración/tortillaPatatas02.png"
-          },
-          {
-            "code": "R00204",
-            "kind": "pack",
-            "name": "Menú bocata con refresco",
-            "price": 15.5,
-            "urlImage": "images/R002/CAJA01/restauración/menu_bocata.png"
           }
         ],
         "name": "Bocatas",
@@ -711,83 +640,6 @@
       {
         "code": "",
         "content": [
-          {
-            "code": "R00049",
-            "name": "Caña cerveza",
-            "price": 1,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cerveza/caña.png"
-          },
-          {
-            "code": "R00050",
-            "name": "Clara",
-            "price": 1.1,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cerveza/clara.png"
-          },
-          {
-            "code": "R00167",
-            "name": "Jarra 1L Sangría",
-            "price": 14.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/sangria.png"
-          },
-          {
-            "code": "R00034",
-            "name": "Vino blanco de la casa botella",
-            "price": 15,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/botellablanco.png"
-          },
-          {
-            "code": "R00033",
-            "name": "Vino tinto de la casa botella",
-            "price": 15,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/botellatinto.png"
-          },
-          {
-            "code": "R00051",
-            "name": "Vino tinto vaso",
-            "price": 1.75,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/copaTinto.png"
-          },
-          {
-            "code": "R00052",
-            "name": "Vino blanco vaso",
-            "price": 1.75,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/genericaBlanco.png"
-          },
-          {
-            "code": "",
-            "content": [
-              {
-                "code": "R00190",
-                "kind": "pack",
-                "name": "Cubata",
-                "price": 8,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cubalibre.png"
-              },
-              {
-                "code": "R00191",
-                "kind": "pack",
-                "name": "Cubata whisky",
-                "price": 8.5,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cubalibre.png"
-              },
-              {
-                "code": "R00202",
-                "kind": "pack",
-                "name": "Cubata normal con Red Bull",
-                "price": 8.5,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cubalibre.png"
-              },
-              {
-                "code": "R00203",
-                "kind": "pack",
-                "name": "Cubata whisky con Red Bull",
-                "price": 8.75,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cubalibre.png"
-              }
-            ],
-            "name": "Combinados",
-            "type": "folder"
-          },
           {
             "code": "",
             "content": [
@@ -1038,248 +890,51 @@
             "type": "folder"
           },
           {
-            "code": "",
-            "content": [
-              {
-                "code": "R00141",
-                "name": "Chupito whisky Ballantine's",
-                "price": 3.5,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/whisky/Ballantines.png"
-              },
-              {
-                "code": "R00145",
-                "name": "Chupito whisky Cardhu",
-                "price": 3.95,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/whisky/Cardhu.png"
-              },
-              {
-                "code": "R00147",
-                "name": "Chupito whisky DYC",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/whisky/DYC.png"
-              },
-              {
-                "code": "R00139",
-                "name": "Chupito whisky J&B",
-                "price": 3.5,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/whisky/JB.png"
-              },
-              {
-                "code": "R00143",
-                "name": "Chupito whisky Jim Bean",
-                "price": 3.5,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/whisky/JimBeamBlack.png"
-              },
-              {
-                "code": "R00133",
-                "name": "Chupito vodka Absolut",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vodka/absolut.png"
-              },
-              {
-                "code": "R00137",
-                "name": "Chupito vodka Smirnoff",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vodka/smirnoff.png"
-              },
-              {
-                "code": "R00135",
-                "name": "Chupito vodka Stolichnaya",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vodka/stolichnaya.png"
-              },
-              {
-                "code": "R00193",
-                "name": "Chupito ginebra Beefeater",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/ginebra/Beefeater.png"
-              },
-              {
-                "code": "R00195",
-                "name": "Chupito ginebra Gordon's",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/ginebra/Gordons.png"
-              },
-              {
-                "code": "R00197",
-                "name": "Chupito ginebra Larios",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/ginebra/Larios.png"
-              },
-              {
-                "code": "R00213",
-                "name": "Chupito Bailey's",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/baileys.png"
-              },
-              {
-                "code": "R00211",
-                "name": "Chupito Marie Brizard",
-                "price": 3,
-                "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/marieBrizard.png"
-              }
-            ],
-            "name": "Chupitos",
-            "type": "folder"
+            "code": "R00050",
+            "name": "Clara",
+            "price": 1.1,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cerveza/clara.png"
+          },
+          {
+            "code": "R00033",
+            "name": "Vino tinto de la casa botella",
+            "price": 15,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/botellatinto.png"
+          },
+          {
+            "code": "R00051",
+            "name": "Vino tinto vaso",
+            "price": 1.75,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/copaTinto.png"
+          },
+          {
+            "code": "R00052",
+            "name": "Vino blanco vaso",
+            "price": 1.75,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/genericaBlanco.png"
+          },
+          {
+            "code": "R00167",
+            "name": "Jarra 1L Sangría",
+            "price": 14.5,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/sangria.png"
+          },
+          {
+            "code": "R00049",
+            "name": "Caña cerveza",
+            "price": 1,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/cerveza/caña.png"
+          },
+          {
+            "code": "R00034",
+            "name": "Vino blanco de la casa botella",
+            "price": 15,
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/alcohol/vinos/botellablanco.png"
           }
         ],
         "name": "Alcohol",
         "type": "folder",
         "urlImage": "images/R002/CAJA01/restauración/familias/alcoholicas.png"
-      },
-      {
-        "code": "",
-        "content": [
-          {
-            "code": "R00118",
-            "name": "Pizza 4 estaciones",
-            "price": 4.25,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/4estaciones.png"
-          },
-          {
-            "code": "R00112",
-            "name": "Pizza 4 quesos",
-            "price": 4.25,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/4quesos.png"
-          },
-          {
-            "code": "R00113",
-            "name": "Pizza hawaiana",
-            "price": 4.25,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/hawaiana.png"
-          },
-          {
-            "code": "R00119",
-            "name": "Pizza calzone",
-            "price": 4.25,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/calzone.png"
-          },
-          {
-            "code": "R00114",
-            "name": "Pizza margarita",
-            "price": 3.95,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/margarita.png"
-          },
-          {
-            "code": "R00115",
-            "name": "Pizza napolitana",
-            "price": 4.25,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/napolitana.png"
-          },
-          {
-            "code": "R00116",
-            "name": "Pizza peperoni",
-            "price": 4.15,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/peperoni2.png"
-          },
-          {
-            "code": "R00117",
-            "name": "Pizza vegetal",
-            "price": 4.15,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/vegetal.png"
-          },
-          {
-            "code": "R00999",
-            "name": "Pizza pizzologo",
-            "price": 9.5,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/vegetal.png"
-          },
-          {
-            "code": "R00337",
-            "kind": "pack",
-            "name": "1/2 pizza",
-            "price": 19,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/genericaPizza.png"
-          },
-          {
-            "code": "R00341",
-            "kind": "S",
-            "name": "- Atún",
-            "price": 0,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00339",
-            "kind": "S",
-            "name": "- Bacon",
-            "price": 0,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00343",
-            "kind": "S",
-            "name": "- Olivas",
-            "price": 0,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00345",
-            "kind": "S",
-            "name": "- Salsa BBQ",
-            "price": 0,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00340",
-            "kind": "S",
-            "name": "+ Atún",
-            "price": 1,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00338",
-            "kind": "S",
-            "name": "+ Bacon",
-            "price": 1,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00342",
-            "kind": "S",
-            "name": "+ Olivas",
-            "price": 1,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          },
-          {
-            "code": "R00344",
-            "kind": "S",
-            "name": "+ Salsa BBQ",
-            "price": 1,
-            "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-          }
-        ],
-        "name": "Pizzas",
-        "type": "folder"
-      },
-      {
-        "code": "",
-        "content": [],
-        "name": "Entrantes",
-        "type": "folder"
-      },
-      {
-        "code": "",
-        "content": [],
-        "name": "Pasta y arroz",
-        "type": "folder"
-      },
-      {
-        "code": "",
-        "content": [],
-        "name": "Legumbre y sopas",
-        "type": "folder"
-      },
-      {
-        "code": "",
-        "content": [],
-        "name": "Pescado y marisco",
-        "type": "folder"
-      },
-      {
-        "code": "",
-        "content": [],
-        "name": "Carnes",
-        "type": "folder"
       },
       {
         "code": "",
@@ -1348,65 +1003,6 @@
         "name": "Postres",
         "type": "folder",
         "urlImage": "images/R002/CAJA01/restauración/familias/postres.png"
-      },
-      {
-        "code": "",
-        "content": [
-          {
-            "code": "R00321",
-            "kind": "pack",
-            "name": "Menú pizza",
-            "price": 19,
-            "urlImage": "images/R002/CAJA01/restauración/pizza/genericaPizza.png"
-          },
-          {
-            "code": "R00328",
-            "kind": "pack",
-            "name": "Café y pasta",
-            "price": 1.25,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/expresso.png"
-          },
-          {
-            "code": "R00329",
-            "kind": "pack",
-            "name": "Desayuno de campeones",
-            "price": 3.5,
-            "urlImage": "images/R002/CAJA01/restauración/legumbre/judiasTomate.png"
-          },
-          {
-            "code": "",
-            "content": [
-              {
-                "code": "R00336",
-                "name": "Cena Subvencionada",
-                "price": 0,
-                "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-              },
-              {
-                "code": "R00334",
-                "name": "Comida Subvencionada",
-                "price": 0,
-                "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-              },
-              {
-                "code": "R00333",
-                "name": "Desayuno Subvencionado",
-                "price": 0,
-                "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-              },
-              {
-                "code": "R00335",
-                "name": "Merienda Subvencionada",
-                "price": 0,
-                "urlImage": "images/R002/CAJA01/C:/Archivos%20de%20programa/Neo%20Grup/Images"
-              }
-            ],
-            "name": "Subvenciones",
-            "type": "folder"
-          }
-        ],
-        "name": "Menús",
-        "type": "folder"
       }
     ],
     "externalCode": "R001",
