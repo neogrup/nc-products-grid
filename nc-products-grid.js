@@ -8,11 +8,18 @@ class NcProductsGrid extends PolymerElement {
         :host {
           --products-grid-item-content-border-radius: 5px;
           --products-grid-item-content-box-shadow: none;
+          --products-grid-item-content-folder-font-size: 1.3em;
+          --products-grid-item-content-default-font-size: 1em;
+          --products-grid-item-content-default-price-font-size: 0.8em;
         }
 
         nc-items-grid{
           --items-grid-item-content-border-radius: var(--products-grid-item-content-border-radius);
           --items-grid-item-content-box-shadow: var(--products-grid-item-content-box-shadow);
+          --items-grid-item-content-folder-font-size: var(--products-grid-item-content-folder-font-size);
+          --items-grid-item-content-default-font-size: var(--products-grid-item-content-default-font-size);
+          --items-grid-item-content-default-price-font-size: var(--products-grid-item-content-default-price-font-size);
+
         }
       </style>
 
