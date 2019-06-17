@@ -10,7 +10,7 @@ class NcProductsGrid extends PolymerElement {
           --products-grid-item-content-box-shadow: none;
           --products-grid-item-content-folder-font-size: 1.3em;
           --products-grid-item-content-default-font-size: 1em;
-          --products-grid-item-content-default-price-font-size: 0.8em;
+          --products-grid-item-content-default-price-font-size: 1em;
         }
 
         nc-items-grid{
