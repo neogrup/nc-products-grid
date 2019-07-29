@@ -36,6 +36,7 @@ class NcProductsGrid extends PolymerElement {
           item-margin="[[marginProductsGridItems]]" 
           item-view-mode="[[viewModeProductsGridItems]]" 
           hide-items-price ="[[hideProductsPrice]]"
+          animations ="[[animations]]"
           on-item-selected="_productSelected">
       </nc-items-grid>
     `;
@@ -51,6 +52,10 @@ class NcProductsGrid extends PolymerElement {
       breadcrumb: {
         type: Boolean,
         value: false
+      },
+      animations: {
+        type: Boolean,
+        value: true
       },
       itemsGridLoading: {
         type: Boolean,
