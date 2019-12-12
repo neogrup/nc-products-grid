@@ -37,7 +37,8 @@ class NcProductsGrid extends PolymerElement {
           item-view-mode="[[viewModeProductsGridItems]]" 
           hide-items-price ="[[hideProductsPrice]]"
           animations ="[[animations]]"
-          on-item-selected="_productSelected">
+          on-item-selected="_productSelected"
+          on-item-kiosk-header-selected="_productInfoSelected">
       </nc-items-grid>
     `;
   }
@@ -93,6 +94,10 @@ class NcProductsGrid extends PolymerElement {
 
   _productSelected(item){
     this.dispatchEvent(new CustomEvent('product-selected', {detail: item.detail, bubbles: true, composed: true }));
+  }
+
+  _productInfoSelected(item){
+    this.dispatchEvent(new CustomEvent('product-info-selected', {detail: item.detail, bubbles: true, composed: true }));
   }
 }
 
