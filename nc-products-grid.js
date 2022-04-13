@@ -35,8 +35,8 @@ class NcProductsGrid extends PolymerElement {
           item-width="[[widthProductsGridItems]]" 
           item-margin="[[marginProductsGridItems]]" 
           item-view-mode="[[viewModeProductsGridItems]]" 
-          hide-items-price ="[[hideProductsPrice]]"
-          animations ="[[animations]]"
+          hide-item-price="[[hideProductPrice]]"
+          animations="[[animations]]"
           on-item-selected="_productSelected"
           on-item-kiosk-header-selected="_productInfoSelected">
       </nc-items-grid>
@@ -78,7 +78,7 @@ class NcProductsGrid extends PolymerElement {
         type: String,
         reflectToAttribute: true
       },
-      hideProductsPrice: {
+      hideProductPrice: {
         type: Boolean
       }
     };
