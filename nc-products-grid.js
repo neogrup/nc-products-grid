@@ -28,6 +28,7 @@ class NcProductsGrid extends PolymerElement {
           items-grid-data="{{productsGridData}}" 
           loading="{{itemsGridLoading}}" 
           language="{{language}}" 
+          symbol="{{symbol}}"
           is-paginated
           breadcrumb="[[breadcrumb]]" 
           auto-flow
@@ -49,6 +50,7 @@ class NcProductsGrid extends PolymerElement {
         type: Array,
         value: []
       },
+      symbol: String,
       language: String,
       breadcrumb: {
         type: Boolean,
