@@ -13,7 +13,9 @@
             "kitchenNoteGroup": "0000000009",
             "name": "Café solo-",
             "price": 0.95,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/solo01.png"
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/solo01.png",
+            "availableQty": 2,
+            "availableStatus": "warning"
           },
           {
             "code": "R00056",
