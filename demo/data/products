@@ -21,7 +21,9 @@
             "code": "R00056",
             "name": "Café con leche",
             "price": 2.5,
-            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/cafeLeche02.png"
+            "urlImage": "images/R002/CAJA01/restauración/bebidas/cafes/cafeLeche02.png",
+            "availableQty": 0,
+            "availableStatus": "error"
           },
           {
             "code": "R00057",
