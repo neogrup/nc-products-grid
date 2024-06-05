@@ -94,6 +94,10 @@ class NcProductsGrid extends PolymerElement {
     this.$.itemsGrid.selectTopFolder();
   }
 
+  refreshLevel(){
+    this.$.itemsGrid.refreshLevel();
+  }
+
   _productSelected(item){
     this.dispatchEvent(new CustomEvent('product-selected', {detail: item.detail, bubbles: true, composed: true }));
   }
